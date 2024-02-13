@@ -6,14 +6,12 @@ public class Exercise5
     public static void Main(string[] args)
     {
         
-        int number1, number2, temp;
+             
+       Console.WriteLine("Enter the first number:");
+        int a = Convert.ToInt32(Console.ReadLine());
 
-        
-        Console.Write("\nInput the First Number : ");
-        number1 = int.Parse(Console.ReadLine());
-
-        Console.Write("\nInput the Second Number : ");
-        number2 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the second number:");
+        int b = Convert.ToInt32(Console.ReadLine());
 
         temp = number1;
         number1 = number2;
