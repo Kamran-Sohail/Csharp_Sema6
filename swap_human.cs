@@ -5,8 +5,6 @@ public class Exercise5
     
     public static void Main(string[] args)
     {
-        
-             
        Console.WriteLine("Enter the first number:");
         int a = Convert.ToInt32(Console.ReadLine());
 
